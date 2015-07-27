@@ -1,0 +1,24 @@
+{
+  "name": "bare-auth-twitter",
+  "version": "1.0.0",
+  "description": "Stateless authentication with Twitter using Bare Auth",
+  "keywords": [
+    "authentication",
+    "auth",
+    "twitter",
+    "stateless",
+    "bare auth"
+  ],
+  "author": "Matthew Mueller <matt@lapwinglabs.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lapwinglabs/bare-auth-twitter.git"
+  },
+  "main": "lib/server.js",
+  "browser": "lib/client.js",
+  "dependencies": {
+    "twitter-oauth-agent": "^1.0.0",
+    "object-assign": "^3.0.0",
+    "superagent": "^1.2.0"
+  }
+}
